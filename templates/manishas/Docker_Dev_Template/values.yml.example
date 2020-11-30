@@ -1,0 +1,28 @@
+artifactoryIntegration: myArtifactoryIntegration
+
+GitRepo:
+  name: myGitRepo
+  gitProvider: myGitIntegration
+  path: myorg/myrepo
+  branches:
+    include: master
+
+Image:
+  name: myDockerImage
+  sourceRepository: mySourceRepo
+
+BuildInfo:
+  name: myBuildInfo
+  buildName: myBuildName
+  buildNumber: 1
+
+Pipeline:
+  name: myDockerPipeline
+
+DockerBuild:
+  name: myDockerBuild
+  dockerFileName: Dockerfile
+  dockerImageName: <image name>
+
+DockerPush:
+  targetRepository: docker-local 
