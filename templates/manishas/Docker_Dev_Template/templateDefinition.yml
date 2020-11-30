@@ -41,7 +41,7 @@ pipelines:
         type: DockerBuild
         configuration:
           affinityGroup: DockerBuildAndPush
-          dockerFileLocation: {{ .Values.DockerBuild.dockerFileLocation }}
+          dockerFileLocation: .
           dockerFileName: {{ .Values.DockerBuild.dockerFileName }}
           dockerImageName: {{ .Values.DockerBuild.dockerImageName }}
           dockerImageTag: {{ .Values.DockerBuild.dockerImageTag }}
