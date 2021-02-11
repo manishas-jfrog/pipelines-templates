@@ -1,0 +1,3 @@
+repoPath: myUser/myRepo
+gitProvider: myGitHubIntegration
+artifactory: myArtifactoryIntegration
