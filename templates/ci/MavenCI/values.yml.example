@@ -1,0 +1,4 @@
+gitProvider: myGitIntegration
+artifactory: myArtifactoryIntegration
+repoPath: myUser/myRepoName
+deployerRepo: myDeployerRepo
