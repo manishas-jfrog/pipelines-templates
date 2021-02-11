@@ -1,0 +1,3 @@
+myRepo:
+  gitProvider: myGitIntegration
+  path: manishas-jfrog/myRepositoryName
